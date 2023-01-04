@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section id="tela-login">
+            <div id="imagem">
+                <span class="material-icons">account_circle</span>
+            </div>
+            <div id="formulario">
+                <h1>Member Login</h1>
+                <form action="arquivo.php" method="post">
+                    <div class="campo">
+                        <span class="material-icons md-18">mail</span>
+                        <input type="email" id="ilogin" required placeholder="Email">
+                        <label for="ilogin"></label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons md-18">lock</span>
+                        <input type="password" id="isenha" required placeholder="Password">
+                        <label for="isenha"></label>
+                    </div>
+                        <input type="submit" value="LOGIN">
+                </form>
+                <a href="#">Forget Username/Password</a>
+                <br>
+                <a href="#" id="link-create">Create your Account <span class="material-icons md-18">east</span></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
